@@ -25,4 +25,5 @@ yarn-error.log*
 
 # environment variables must be defined at runtime
 # default values are to be commited as .env.example
-.env
+**/*.env
+!**/example.env
