@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
         // providerOptions.baseUrl -> providerOptions.s3Options.baseUrl Адрес
         // доступный публично, формат: <s3-url>/<s3-bucket> Все файлы
         // складываются в один бакет (anonymous download)
-        baseUrl: env('S3_BASE_URL', 'http://localhost:9000/strapi1'),
+        baseUrl: env('S3_BASE_URL', 'http://localhost:9000/strapi2'),
         s3Options: {
           // Тут можно подставить адрес относительно внутренней сети
           endpoint: env('S3_ENDPOINT', 'http://localhost:9000'),
